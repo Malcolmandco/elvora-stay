@@ -1,0 +1,68 @@
+[functions.hotelbeds-search]
+verify_jwt = false
+
+[functions.hotelbeds-env-status]
+verify_jwt = true
+
+[functions.hotelbeds-destinations]
+verify_jwt = false
+
+[functions.hotelbeds-checkrate]
+verify_jwt = false
+
+[functions.places-suggestions]
+verify_jwt = false
+
+[functions.flights-search]
+verify_jwt = false
+
+[functions.cars-search]
+verify_jwt = false
+
+[functions.transfers-search]
+verify_jwt = false
+
+[functions.hotelbeds-content-sync]
+verify_jwt = true
+
+[functions.hotelbeds-catalog-test]
+verify_jwt = true
+
+[functions.stay-availability]
+verify_jwt = true
+
+[functions.stay-booking]
+verify_jwt = true
+
+[functions.paymentgate-payment]
+verify_jwt = true
+
+[functions.paymentgate-webhook]
+verify_jwt = false
+
+[functions.hotelbeds-queue-manager]
+verify_jwt = true
+
+[functions.hotelbeds-queue-worker]
+verify_jwt = true
+
+[functions.hotelbeds-amenities-enrich]
+verify_jwt = true
+
+[functions.hotelbeds-room-sync]
+verify_jwt = true
+
+[functions.hotelbeds-sync-control]
+verify_jwt = true
+
+[functions.hotelbeds-credentials]
+verify_jwt = true
+
+[functions.hotelbeds-credential-diagnostic]
+verify_jwt = true
+
+[functions.image-audit]
+verify_jwt = true
+
+[functions.dida-capability-test]
+verify_jwt = true
